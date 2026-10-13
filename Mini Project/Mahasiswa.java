@@ -1,16 +1,19 @@
 public class Mahasiswa {
-   String nama;
-   String nim;
-   int nilai;
+    String nama;
+    String nim;
+    int nilai;
 
-   public Mahasiswa() {
-   }
+    String tampilkanData() {
+        return "Nama  : " + nama + "\n"
+             + "NIM   : " + nim + "\n"
+             + "Nilai : " + nilai;
+    }
 
-   String tampilkanData() {
-      return "Nama  : " + this.nama + "\nNIM   : " + this.nim + "\nNilai : " + this.nilai;
-   }
-
-   String cekKelulusan() {
-      return this.nilai >= 60 ? "Status: Lulus" : "Status: Tidak Lulus";
-   }
+    String cekKelulusan() {
+        if (nilai >= 60) {
+            return "Status: Lulus";
+        } else {
+            return "Status: Tidak Lulus";
+        }
+    }
 }
