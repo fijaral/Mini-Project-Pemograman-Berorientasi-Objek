@@ -160,35 +160,35 @@ Program akan meminta pengguna memasukkan data tiga mahasiswa secara berurutan.
 
 ```text
 === Mahasiswa ke-1 ===
-Nama  : Andi
-NIM   : 2301001
+Nama  : Muhammad Fathir
+NIM   : 2501
 Nilai : 75
 
 --- Hasil ---
-Nama  : Andi
-NIM   : 2301001
+Nama  : Muhammad Fathir
+NIM   : 2501
 Nilai : 75
 Status: Lulus
 
 === Mahasiswa ke-2 ===
-Nama  : Budi
-NIM   : 2301002
+Nama  : Arinal
+NIM   : 2573
 Nilai : 50
 
 --- Hasil ---
-Nama  : Budi
-NIM   : 2301002
+Nama  : Arinal
+NIM   : 2573
 Nilai : 50
 Status: Tidak Lulus
 
 === Mahasiswa ke-3 ===
-Nama  : Citra
-NIM   : 2301003
+Nama  : Hanif
+NIM   : 2503
 Nilai : 88
 
 --- Hasil ---
-Nama  : Citra
-NIM   : 2301003
+Nama  : Hanif
+NIM   : 2503
 Nilai : 88
 Status: Lulus
 ```
