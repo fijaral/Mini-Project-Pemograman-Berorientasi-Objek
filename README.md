@@ -128,7 +128,7 @@ Jika kedua perintah menampilkan versi Java, kamu dapat melanjutkan ke tahap beri
 
 ### 2. Siapkan File
 
-Simpan file `Mahasiswa.java` dan `Main.java` di dalam folder yang sama.
+Simpan file `Mahasiswa.java` `Main.java` dan `MainGUI.java` di dalam folder yang sama.
 
 ### 3. Buka Terminal
 
@@ -152,49 +152,6 @@ Setelah kompilasi berhasil, jalankan:
 java Main
 ```
 
-Program akan meminta pengguna memasukkan data tiga mahasiswa secara berurutan.
-
----
-
-## 💻 Contoh Input dan Output
-
-```text
-=== Mahasiswa ke-1 ===
-Nama  : Muhammad Fathir
-NIM   : 2501
-Nilai : 75
-
---- Hasil ---
-Nama  : Muhammad Fathir
-NIM   : 2501
-Nilai : 75
-Status: Lulus
-
-=== Mahasiswa ke-2 ===
-Nama  : Arinal
-NIM   : 2573
-Nilai : 50
-
---- Hasil ---
-Nama  : Arinal
-NIM   : 2573
-Nilai : 50
-Status: Tidak Lulus
-
-=== Mahasiswa ke-3 ===
-Nama  : Hanif
-NIM   : 2503
-Nilai : 88
-
---- Hasil ---
-Nama  : Hanif
-NIM   : 2503
-Nilai : 88
-Status: Lulus
-```
-
-*Output di atas merupakan ilustrasi hasil program dengan format tampilan sesuai contoh.*
-
 ---
 
 ## 🔄 Alur Kerja Program
@@ -212,7 +169,7 @@ Status: Lulus
 
 ## 📝 Catatan Penggunaan
 
-- Jumlah mahasiswa yang diproses adalah **3 orang**.
+- Jumlah mahasiswa yang diproses adalah **5 orang**.
 - Nama dan NIM dibaca sebagai `String`.
 - Nilai dibaca sebagai bilangan bulat menggunakan `Integer.parseInt()`.
 - Nilai 60 atau lebih dinyatakan **Lulus**.
