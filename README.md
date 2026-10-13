@@ -15,7 +15,7 @@
 
 ---
 
-## 👨‍🎓 Informasi Mahasiswa
+## 👨‍🎓 Profil Mahasiswa
 
 | Keterangan | Detail |
 |:---|:---|
@@ -30,9 +30,9 @@
 
 ## 📌 Tentang Proyek
 
-**Program Data Mahasiswa** adalah aplikasi berbasis Java sederhana yang dirancang untuk mengelola dan menampilkan data mahasiswa.Saat program dijalankan, pengguna memilih salah satu mode antara Terminal dan GUI.
+**Program Data Mahasiswa** adalah aplikasi berbasis Java sederhana yang dirancang untuk mengelola dan menampilkan data mahasiswa. Saat program dijalankan, pengguna memilih salah satu mode antara Terminal dan GUI.
 
-Program ini menggabungkan materi **Control Flow** dan **Dasar Pemrograman Berorientasi Objek (OOP)**. Pengguna dapat memasukkan nama, NIM, dan nilai dari tiga mahasiswa. Setelah itu, program menampilkan kembali data yang dimasukkan serta menentukan status kelulusan berdasarkan nilai mahasiswa.
+Program ini menggabungkan materi **Control Flow** dan **Dasar Pemrograman Berorientasi Objek (OOP)**. Pengguna dapat memasukkan nama, NIM, dan nilai dari lima mahasiswa. Setelah itu, program menampilkan kembali data yang dimasukkan serta menentukan status kelulusan berdasarkan nilai mahasiswa.
 
 ### ✨ Fitur Utama
 
