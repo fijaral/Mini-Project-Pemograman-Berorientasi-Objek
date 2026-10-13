@@ -37,7 +37,7 @@ Program ini menggabungkan materi **Control Flow** dan **Dasar Pemrograman Berori
 ### ✨ Fitur Utama
 
 - 📝 **Input Data Mahasiswa** — Memasukkan nama, NIM, dan nilai.
-- 👥 **Pengolahan 3 Mahasiswa** — Menggunakan perulangan `for` untuk memproses data.
+- 👥 **Pengolahan 5 Mahasiswa** — Menggunakan perulangan `for` untuk memproses data.
 - 📋 **Tampilan Data** — Menampilkan informasi setiap mahasiswa dengan format yang terstruktur.
 - ✅ **Pengecekan Kelulusan** — Menentukan status Lulus atau Tidak Lulus secara otomatis.
 - 🧩 **Penerapan OOP** — Menggunakan class, object, attribute, dan method.
@@ -157,7 +157,7 @@ java Main
 ## 🔄 Alur Kerja Program
 
 1. Program dimulai dan menyiapkan objek `Scanner` untuk menerima input.
-2. Perulangan `for` berjalan sebanyak tiga kali.
+2. Perulangan `for` berjalan sebanyak lima kali.
 3. Pengguna memasukkan nama, NIM, dan nilai mahasiswa.
 4. Program membuat object `Mahasiswa` berdasarkan data yang dimasukkan.
 5. Method `tampilkanData()` menampilkan informasi mahasiswa.
