@@ -19,19 +19,18 @@
 
 | Keterangan | Detail |
 |:---|:---|
-| **Nama** | Isi nama kamu |
-| **NIM** | Isi NIM kamu |
+| **Nama** | Nabil Al Fijar |
+| **NIM** | 250810701100031 |
 | **Program Studi** | S1 Informatika |
 | **Fakultas** | Matematika dan Ilmu Pengetahuan Alam |
 | **Universitas** | Universitas Syiah Kuala |
 | **Dosen Pengampu** | Maulyanda, S.Tr.Kom., M.Kom. |
-| **Minggu Perkuliahan** | 3 & 4 |
 
 ---
 
 ## 📌 Tentang Proyek
 
-**Program Data Mahasiswa** adalah aplikasi berbasis Java sederhana yang dirancang untuk mengelola dan menampilkan data mahasiswa melalui terminal.
+**Program Data Mahasiswa** adalah aplikasi berbasis Java sederhana yang dirancang untuk mengelola dan menampilkan data mahasiswa.Saat program dijalankan, pengguna memilih salah satu mode antara Terminal dan GUI.
 
 Program ini menggabungkan materi **Control Flow** dan **Dasar Pemrograman Berorientasi Objek (OOP)**. Pengguna dapat memasukkan nama, NIM, dan nilai dari tiga mahasiswa. Setelah itu, program menampilkan kembali data yang dimasukkan serta menentukan status kelulusan berdasarkan nilai mahasiswa.
 
@@ -49,9 +48,10 @@ Program ini menggabungkan materi **Control Flow** dan **Dasar Pemrograman Berori
 
 ```text
 Program-Data-Mahasiswa/
-├── 📄 Mahasiswa.java   # Class dan method mahasiswa
-├── 📄 Main.java        # Program utama
-└── 📄 README.md        # Dokumentasi proyek
+├── 📄 Mahasiswa.java   # Class Mahasiswa (attribute & method)
+├── 📄 Main.java        # Menu pilihan mode + Mode Terminal
+├── 📄 MainGUI.java     # Mode GUI (Swing)
+└── 📄 README.md
 ```
 
 **Penjelasan file:**
@@ -60,6 +60,7 @@ Program-Data-Mahasiswa/
 |:---|:---|
 | `Mahasiswa.java` | Mendefinisikan attribute serta method untuk menyimpan dan menampilkan data mahasiswa. |
 | `Main.java` | Menangani input pengguna, perulangan, pembuatan object, dan pemanggilan method. |
+| `MainGUI.java` | Menyediakan antarmuka grafis (Graphical User Interface/GUI) agar pengguna dapat memasukkan dan melihat data mahasiswa melalui komponen visual, seperti kolom input, tombol, dan area hasil. |
 | `README.md` | Menjelaskan deskripsi, fitur, struktur, dan cara menjalankan program. |
 
 ---
