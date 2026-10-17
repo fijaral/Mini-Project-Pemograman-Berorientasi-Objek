@@ -30,7 +30,7 @@
 
 ## 📌 Tentang Proyek
 
-**Program Data Mahasiswa** adalah aplikasi berbasis Java sederhana yang dirancang untuk mengelola dan menampilkan data mahasiswa. Saat program dijalankan, pengguna memilih salah satu mode antara Terminal dan GUI.
+**Program Data Mahasiswa** adalah aplikasi berbasis Java sederhana yang dirancang untuk mengelola dan menampilkan data mahasiswa melalui terminal.
 
 Program ini menggabungkan materi **Control Flow** dan **Dasar Pemrograman Berorientasi Objek (OOP)**. Pengguna dapat memasukkan nama, NIM, dan nilai dari lima mahasiswa. Setelah itu, program menampilkan kembali data yang dimasukkan serta menentukan status kelulusan berdasarkan nilai mahasiswa.
 
@@ -49,8 +49,7 @@ Program ini menggabungkan materi **Control Flow** dan **Dasar Pemrograman Berori
 ```text
 Program-Data-Mahasiswa/
 ├── 📄 Mahasiswa.java   # Class Mahasiswa (attribute & method)
-├── 📄 Main.java        # Menu pilihan mode + Mode Terminal
-├── 📄 MainGUI.java     # Mode GUI (Swing)
+├── 📄 Main.java        # Program utama (input, perulangan, pembuatan object)
 └── 📄 README.md
 ```
 
@@ -60,7 +59,6 @@ Program-Data-Mahasiswa/
 |:---|:---|
 | `Mahasiswa.java` | Mendefinisikan attribute serta method untuk menyimpan dan menampilkan data mahasiswa. |
 | `Main.java` | Menangani input pengguna, perulangan, pembuatan object, dan pemanggilan method. |
-| `MainGUI.java` | Menyediakan antarmuka grafis (Graphical User Interface/GUI) agar pengguna dapat memasukkan dan melihat data mahasiswa melalui komponen visual, seperti kolom input, tombol, dan area hasil. |
 | `README.md` | Menjelaskan deskripsi, fitur, struktur, dan cara menjalankan program. |
 
 ---
@@ -128,7 +126,7 @@ Jika kedua perintah menampilkan versi Java, kamu dapat melanjutkan ke tahap beri
 
 ### 2. Siapkan File
 
-Simpan file `Mahasiswa.java` `Main.java` dan `MainGUI.java` di dalam folder yang sama.
+Simpan file `Mahasiswa.java` dan `Main.java` di dalam folder yang sama.
 
 ### 3. Buka Terminal
 
