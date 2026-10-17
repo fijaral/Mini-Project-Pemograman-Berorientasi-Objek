@@ -1,19 +1,20 @@
 public class Mahasiswa {
+
     String nama;
     String nim;
     int nilai;
 
-    String tampilkanData() {
-        return "Nama  : " + nama + "\n"
-             + "NIM   : " + nim + "\n"
-             + "Nilai : " + nilai;
+    void tampilkanData() {
+        System.out.println("Nama  : " + nama);
+        System.out.println("NIM   : " + nim);
+        System.out.println("Nilai : " + nilai);
     }
 
-    String cekKelulusan() {
+    void cekKelulusan() {
         if (nilai >= 60) {
-            return "Status: Lulus";
+            System.out.println("Status: Lulus");
         } else {
-            return "Status: Tidak Lulus";
+            System.out.println("Status: Tidak Lulus");
         }
     }
 }
